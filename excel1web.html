@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head> <title> Excel 1 </title></head>
+<body background="repeating_portfolio5.jpg">
+
+<br><br>
+
+<h1>
+<center>
+<font color = "pink"> 
+Samantha Brennan's 
+<br> 
+Excel 1 Project Overview 
+<hr color="white" width="75%">
+</font>
+</center>
+</h1>
+
+<h2>
+<font color = "white">
+<center>
+<em>
+The Excel 1 Project demonstrates the various excel functionalities which may be utilized to analyze raw data sets by filtering and sorting the data as well as creating data lookup tables, pivot tables charts, and graphs. This enhances data accessibility and the user's ability to compare and analyze that data quickly. These tools aid in business decision process, particularly the presentation of analysis.
+</em>
+</center>
+</font>
+</h2>
+<hr color="white" width="75%">
+<p>
+<br><br>
+<font color = "pink" size = "6">
+
+As shown in the image below, the raw data is given as just text data in a table of cells. Some of the techniques utilized in the raw data worksheet are as follows:
+
+<font color = "pink" size = "5">
+
+<ol>
+<li>
+Column H has been conditionally formatted to highlight the cell <font color = "green"><b>green</b></font> if and when the selling price is greater than $9.00.  
+</li>
+
+<li>
+Data set was named "MusicData" as this allows for a VLookup table to be created.
+</li>
+
+<li>
+Text wrapping enabled on header to allow for full header text to be visible.
+</li>
+
+</ol>
+
+<br>
+<center>
+<img src="excel1_image1.png">
+</center>
+</font>
+<br>
+
+<hr color="pink">
+
+<p><font color = "pink" size = "6">
+
+The primary excel functionality for which this project is focused is the VLookup functionality. This tool allows for associated data to be populated when a particular key or code is given. As shown in "VLookup Image 1" below, cell C5 is a fillable data field. When an existing code is entered, the remaining cells populate with the appropriate data. If that code does not exist, no data populates save for a message indicating "Code Not Found." A non-comprehensive list of the skills, techniques, and formulas used in the Lookup worksheet of this project are identified as follows:
+
+
+<font color = "pink" size = "5">
+<ol>
+
+<li> Header fields merged and centered. </li>
+<li> Date insertion tool utilized in merged and centered cell C3:K3 which automatically updates to today's date each time the file is opened. </li>
+<li> Customized cell background colors, font, and borders on each data section.</li>
+<li> Inserted Note in merged and centered cell B2:K2. </li>
+<li> Inserted arrow shape, customize color, size, border, and shape. The arrow is there to indicate the text entry cell C5, which is the only data entry field in the tab.</li>
+<li> VLookup function entered into cells C7:C12, C14:C15, and C18:C19. When an existing code is entered into cell C5, these cells will automatically populate with the corresponding data. </li>
+
+<li> There are three unique IFError functions utilized on this workbook that are used in tandem with the VLookup function either directly or indirectly. As shown above, when a code is populated into cell C7, the VLookup function will populate the corresponding data, however, if that code is invalid, the IFError part of the formula rules the data population of the cell. 
+<ul>
+<!adds an unordered list within an ordered list, to breakdown bullet points into subsections>
+(a) In cell C7, if an error with the VLookup data exists, this cell will display "Code Not Found." 
+</ul>
+<ul>
+(b) In cells C8:C12, C14:15, and C18:C19, if an error exists with the VLookup function, the IFError function will cause the display of blank cells.
+</ul>
+<ul>
+(c) Cells C16:C17 and C21:C22 are not subject to the VLookup formula, however, rely on the data of other cells which are subject to the VLookup function. If an error exists, the IFError function will cause the display of blank cells. 
+</ul>
+</li>
+<li>
+The IF Function is used in cell C20 and C23 for unique purposes.
+<ul>
+(a) Cell C20 is not subject to a VLookup function but the IF Function is dependent on the results thereof. If a valid code is entered, cell C20 will display "15%" however, if the code entered was invalid resulting in cell C7 to display "Code Not Found," the IF Function will cause this cell to display no data.
+</ul>
+<ul>
+(b) An IF Function was installed in Cell C23 to provide a remark. If the value populated to cell C22 is equal to zero only, cell C23 will display the remark "The foal has been met, Yay!" Any other values will result in the display of a blank cell.
+</ul>
+</li>
+<li>
+A chart is inserted that automatically adjusts when a valid code is entered.
+</li>
+</ol>
+
+<br>
+<b>
+<Center>
+<font color = "orange">
+VLookup Image 1
+</center>
+</b>
+<center>
+<img src="excel1_image2.png" height = "75%" width = "75%">
+</center>
+</font>
+<br>
+<b>
+<Center>
+<font color = "orange">
+VLookup Image 2
+</center>
+</b>
+<center>
+<img src="excel1_image3.png" height = "75%" width = "75%">
+</center>
+</font>
+</p>
+<br>
+<hr color="pink">
+
+<br>
+<font color = "pink" size = "6">
+<center>
+
+I learned a lot during this project and I was particularly interested in learning and utilizing the VLookup Function, IF Function, and IF Error Function. Connecting multiple functions to be used in the same cell was challenging and there was a steep learning curve involved, however, these functions make a more user friendly and visually pleasing report of the data. I will continue to hone my newly acquired skills and plan to implement these functions in my daily work life for an added layer of analysis, accessibility, and professionalism in finalized reporting.
+
+</center>
+</font>
+</p>
+
+<br><br><br>
+
+<p align="right">
+<font size="7">
+<a href="portfolio.html"><font color="white">Return to Portfolio</a>
+</font>
+</p>
+
+
+</body>
+</html>
