@@ -1,10 +1,10 @@
  
-    let productName = "SoundPod" // Mini bluetooth speaker SKU 000021534
-    let costPerUnit = 16.23 
-    let basePrice = 28.99
-    let discountRate = .12 // 12%
-    let salesTaxRate = .0775 // 7.75%
-    let fixedMonthlyCosts = 1950 // $1,950
+    let productName = "SoundPod"; // Mini bluetooth speaker SKU 000021534
+    let costPerUnit = 16.23; // $16.23
+    let basePrice = 28.99; //$28.99
+    let discountRate = .12; // 12%
+    let salesTaxRate = .0775; // 7.75%
+    let fixedMonthlyCosts = 1950; // $1,950
    
     let discountedPrice = basePrice * (1 - discountRate);
     let finalPriceWithTax = discountedPrice * (1 + salesTaxRate);
