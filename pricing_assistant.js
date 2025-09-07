@@ -8,7 +8,7 @@
 </head>
 <body>
     <script>
-    let productName = "Norton Antivirus 2003 \(Boxed CD Edition\)"
+    let productName = "Norton Antivirus 2003 (Boxed CD Edition)"
     let costPerUnit = 16.23
     let basePrice = 28.99
     let discountRate = .12
@@ -19,7 +19,7 @@
     let finalPriceWithTax = discountedPrice * (1 + salesTaxRate);
     let profitPerUnit = finalPriceWithTax - costPerUnit;
     let breakEvenUnits = Math.ceil(fixedMonthlyCosts / profitPerUnit);
-    isProfitablePerUnit = profitPerUnit > 0;
+    let isProfitablePerUnit = profitPerUnit > 0;
 
     console.log("Product: " + productName);
     console.log("Discounted price: $" + discountedPrice.toFixed(2));
