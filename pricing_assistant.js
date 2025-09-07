@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodingChallenge02a</title>
-    <h1> Product Pricing Assistant</h1>
-</head>
-<body>
-    <script>
+ 
     let productName = "Norton Antivirus 2003 (Boxed CD Edition)"
     let costPerUnit = 16.23
     let basePrice = 28.99
@@ -28,6 +19,4 @@
     console.log("Break-even units: " + breakEvenUnits);
     console.log("Per-unit profitability: " + isProfitablePerUnit);
 
-</script>
-</body>
-</html>
+
