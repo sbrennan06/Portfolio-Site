@@ -1,5 +1,5 @@
  
-    let productName = "Norton Antivirus 2003 (Boxed CD Edition)"
+    let productName = "Norton Antivirus 2003 \(Boxed CD Edition\)"
     let costPerUnit = 16.23
     let basePrice = 28.99
     let discountRate = .12
